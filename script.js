@@ -20,7 +20,7 @@ const smoothScroll = (target) => {
         });
     });
 
-    function toggleMenu() {
-      var navbarMenu = document.getElementByName("navbarMenu");
-      navbarMenu.classList.toggle("open");
+    function toggleMenu(element) {
+      var navbarMenu = document.getElementById('navbar-menu');
+      navbarMenu.classList.toggle('open');
     }

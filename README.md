@@ -1,18 +1,19 @@
-# Welcome to My World
+# Welcome to My Third Assignments
 
 ## Web preview
-![preview]<img width="943" alt="readme" src="https://github.com/RevoU-FSSE-2/week-2-fadli131/assets/109584701/c047d8ab-46bc-4468-86b4-ddd1e723df9e">
+![preview]<img width="943" alt="readme" src="https://github.com/RevoU-FSSE-2/week-3-fadli131/assets/109584701/b80c7f0a-a0d4-4fae-8766-a4642b6ee985">
 
 ## My assignment at Revou fullstack bootcamp
-Website deployment: [Click here](https://creative-scone-9e7e6b.netlify.app/)
+Website deployment: [Click here](https://glittering-toffee-d230e8.netlify.app/)
 ### WEBSITE CONTENT 
 - Header
   - Navbar
 - Main
   - About
   - Portofolio Section
-  - Form
+  - Contact Form
 - Footer
+- Responsive Layout
 
 ### INGREDIENTS CONTENT
 - HTML

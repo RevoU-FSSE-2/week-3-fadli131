@@ -167,6 +167,7 @@ section
  #about p {
     line-height: 30px;
     color: #001C30;
+    font-size: 18px;
  }
  
  #about .profile-pic {
@@ -352,10 +353,31 @@ display: table;
 clear: both;
 }
 
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fbf8f8;
+  margin-bottom: 5px;
+}
+
 @media screen and (max-width: 768px) {
 
   .profile-pic {
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    max-width: 100%;
+    height: auto;
   }
 
   .saya {
@@ -363,9 +385,10 @@ clear: both;
     border-radius: 10%;
     padding: 5px;
     text-align: center;
+    font-size: 14px;
   }
 
-  .halo {
+  .halo{
     font-size: 14px; 
     width: 100%;
     border-radius: 10%;
@@ -374,12 +397,17 @@ clear: both;
     margin: 0px;
   }
 
+  h2 {
+    font-size: 20px;
+  }
+
   .ini-p {
-    font-size: 14px; 
+    font-size: 10px; 
     width: 100%;
     border-radius: 10%;
     padding: 5px;
     align-items: center;
+    line-height: 1.5;
   }
 
   .activity-container{
@@ -401,7 +429,7 @@ clear: both;
     flex-direction: column;
     align-items: center;
     padding: 5px;
-    margin: 0px;
+    margin: 0;
   }
 
   .navbar-menu.open {
@@ -421,11 +449,15 @@ clear: both;
     margin-bottom: 20px;
   }
   
-  .hamburger span {
+ .hamburger span {
     display: block;
     width: 25px;
     height: 3px;
     background-color: #fbf8f8;
+  }
+
+  .dropdown {
+    position: relative;
   }
 
 .about {
